@@ -6,9 +6,18 @@ Bu proje, öğrencilerin akademik durumlarını, sınav takvimlerini ve notları
 
 * **Dashboard:** Genel istatistikler ve KPI kartları ile hızlı bakış.
 <img width="3795" height="1752" alt="dashboard" src="https://github.com/user-attachments/assets/632fc24d-3229-44c9-ab0c-c688667b8988" />
+
 * **Öğrenci Yönetimi:** Öğrenci listesi görüntüleme, ekleme ve detaylı bilgi panelleri.
+<img width="3815" height="585" alt="student" src="https://github.com/user-attachments/assets/498f936e-9dc6-4429-b3ad-e2a7ad841013" />
+
 * **Not Takibi:** Sınav notlarının girişi ve grafiksel başarı analizleri.
+<img width="3805" height="1755" alt="not" src="https://github.com/user-attachments/assets/8ecdd481-0962-4089-ab60-67fb9dd545e5" />
+
+
 * **Sınav Takvimi:** Yaklaşan sınavların ve etkinliklerin takibi.
+<img width="1277" height="1595" alt="subject" src="https://github.com/user-attachments/assets/7ec2e914-9f91-487e-bb67-605a47de7d4d" />
+
+
 * **Güvenli Altyapı:** Firebase Authentication ve Firestore veritabanı entegrasyonu.
 
 ## 🛠️ Kurulum ve Çalıştırma
