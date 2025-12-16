@@ -5,13 +5,10 @@ Bu proje, öğrencilerin akademik durumlarını, sınav takvimlerini ve notları
 ## 🚀 Özellikler
 
 * **Dashboard:** Genel istatistikler ve KPI kartları ile hızlı bakış.
-<<<<<<< HEAD
-=======
 <img width="3795" height="1752" alt="dashboard" src="https://github.com/user-attachments/assets/632fc24d-3229-44c9-ab0c-c688667b8988" />
 
 Bu panel üzerinden uygulama yönetimi kolayca yapılabilir ve kullanıcıya büyük kolaylık sağlar.
 
->>>>>>> 13b0c830a62d1619d8ce6290ca922cf012a36ce5
 * **Öğrenci Yönetimi:** Öğrenci listesi görüntüleme, ekleme ve detaylı bilgi panelleri.
 <img width="3815" height="585" alt="student" src="https://github.com/user-attachments/assets/498f936e-9dc6-4429-b3ad-e2a7ad841013" />
 
