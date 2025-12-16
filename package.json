@@ -2,13 +2,16 @@
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "dist": "next build && electron-builder"
   },
   "dependencies": {
+    "electron-serve": "^3.0.0",
     "firebase": "^12.6.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.4",
@@ -26,9 +29,26 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "build": {
+    "appId": "com.luvenita.ogrenciyonetim",
+    "productName": "Ogrenci Yonetim Paneli",
+    "files": [
+      "out/**/*",
+      "main.js",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
 }

@@ -330,15 +330,17 @@ export default function Dashboard() {
                         <GradeCharts students={filteredStudents} courses={courses} />
                     </div>
 
-                    {/* Sidebar: Calendar & Risk */}
+                    {/* Sidebar: Calendar */}
                     <div className="space-y-6">
                         <ExamCalendar courses={courses} />
-                        <RiskAlert
-                            riskyStudents={riskyStudents}
-                            onEditStudent={(student) => setEditingStudent(student)}
-                        />
                     </div>
                 </div>
+
+                {/* Full Width Risk Alert Section */}
+                <RiskAlert
+                    riskyStudents={riskyStudents}
+                    onEditStudent={(student) => setEditingStudent(student)}
+                />
 
                 {/* Student Table */}
                 <StudentTable
