@@ -5,6 +5,7 @@ Bu proje, öğrencilerin akademik durumlarını, sınav takvimlerini ve notları
 ## 🚀 Özellikler
 
 * **Dashboard:** Genel istatistikler ve KPI kartları ile hızlı bakış.
+![Uygulama Ekran Görüntüsü](screenshots/dashboard.png)
 * **Öğrenci Yönetimi:** Öğrenci listesi görüntüleme, ekleme ve detaylı bilgi panelleri.
 * **Not Takibi:** Sınav notlarının girişi ve grafiksel başarı analizleri.
 * **Sınav Takvimi:** Yaklaşan sınavların ve etkinliklerin takibi.
